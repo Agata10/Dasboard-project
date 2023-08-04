@@ -22,21 +22,64 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr;
     display: grid;
+    gap: 30px;
     background-color: var(--darkCyan);
-    color: var(--font-color);
-    font-family: var(--font-fam);
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
-.dashboard-icon {
+.sidebar li {
+    color: var(--font-color);
+    font-family: var(--font-fam);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.sidebar li:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+}
+
+.dashboard-menu {
     grid-row: 1 / 2;
     font-size: 1.5rem;
     font-weight: 500;
+    color: var(--font-color);
+    font-family: var(--font-fam);
     display: flex;
     align-items: center;
+    gap: 12px;
+}
+
+.click:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+}
+
+.dash-icon {
+    height: 3rem;
+}
+
+li img {
+    height: 1.5rem;
+}
+
+.col-1-list li {
+    list-style-type: none;
 }
 
 .sidebar-menu {
     grid-row: 2 / 3;
+}
+
+.sidebar-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.col-2-list li {
+    list-style-type: none;
 }
 
 .sidebar-second-menu {
