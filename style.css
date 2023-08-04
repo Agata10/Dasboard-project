@@ -22,22 +22,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr;
     display: grid;
-    gap: 30px;
+    gap: 40px;
     background-color: var(--darkCyan);
     padding-top: 10px;
     padding-left: 20px;
-}
-
-.sidebar li {
-    color: var(--font-color);
-    font-family: var(--font-fam);
-    font-weight: 400;
-    font-size: 1.1rem;
-}
-
-.sidebar li:hover {
-    cursor: pointer;
-    -webkit-transform: scale(1.1);
 }
 
 .dashboard-menu {
@@ -61,25 +49,32 @@
 }
 
 li img {
-    height: 1.5rem;
+    height: 1.2rem;
 }
 
-.col-1-list li {
-    list-style-type: none;
+.sidebar li {
+    color: var(--font-color);
+    font-family: var(--font-fam);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.sidebar li:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
 }
 
 .sidebar-menu {
     grid-row: 2 / 3;
 }
 
-.sidebar-menu ul {
+.col-2-list li, .col-1-list li {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     gap: 12px;
-}
-
-.col-2-list li {
     list-style-type: none;
+    padding-bottom: 20px;
+    padding-left: 30px;
 }
 
 .sidebar-second-menu {
