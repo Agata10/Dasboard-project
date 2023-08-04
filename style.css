@@ -231,6 +231,22 @@ li img {
     border: 2px solid red;
   }
 
+
+/** FOOTER**/
   footer {
     grid-column: 2 / 3;
+    font-family: var(--font-fam);
+    background-color: var(--lightCyan);
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px var(--darkCyan);
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    height: 2rem;
 }
