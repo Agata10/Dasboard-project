@@ -5,29 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Agata's Dashboard</title>
 </head>
 <body>
     <div class="wrapper">
-        <div class="sidebar">
-            <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="dashboard">
-                    <title>view-dashboard</title>
-                    <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
-                </svg>Dashboard</a>
-            <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <title>home</title>
-                    <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
-                </svg>Home</a>
-            <a href="#top">Profile</a>
-            <a href="#top">Messages</a>
-            <a href="#top">History</a>
-            <a href="#top">Tasks</a>
-            <a href="#top">Communities</a>
 
-            <a href="#top">Settings</a>
-            <a href="#top">Support</a>
-            <a href="#top">Privacy</a>
+        <div class="sidebar">
+            <div class="dashboard-icon">
+                <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="dashboard">
+                        <title>view-dashboard</title>
+                        <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+                    </svg>Dashboard</a>
+            </div>
+            <div class="sidebar-menu">
+                <ul class="col-1-list">
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <title>home</title>
+                            <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+                        </svg> <a href="#top">Home</a></li>
+                    <li><a href="#top">Profile</a></li>
+                    <li><a href="#top">Messages</a></li>
+                    <li><a href="#top">History</a></li>
+                    <li><a href="#top">Tasks</a></li>
+                    <li><a href="#top">Communities</a></li>
+                </ul>
+                </div>
+                <div class="sidebar-second-menu">
+                <ul class="col-2-list">
+                    <li><a href="#top">Settings</a></li>
+                    <li><a href="#top">Support</a></li>
+                    <li><a href="#top">Privacy</a></li>
+                </ul>
+            </div>
         </div>
+
         <div class="header">
             <div class="searchBox">
                 <input type="text" class="search" placeholder="Search...">
@@ -80,6 +92,7 @@
         <footer>
             <p>Agata Deter Copyright</p>
         </footer>
+
     </div>
 </body>
 
