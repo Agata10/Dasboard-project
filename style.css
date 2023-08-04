@@ -199,18 +199,24 @@ li img {
     width: 20vw;
 }
 
-footer {
-    grid-column: 2 / 3;
-}
-
-
-
-
-  /*main*/
+  /** MAIN **/
   .card {
     width: 250px;
     height: 110px;
     border: 2px solid black;
+  }
+
+  .card img[src*="images"] {
+    width: 160px;
+    height: 70px;
+  }
+
+  .card img[src*="icons"] {
+    height: 1.5rem;
+  }
+
+  .card a {
+    target: "_blank";
   }
 
   .trendingCard {
@@ -220,3 +226,7 @@ footer {
   .announcementsCards {
     border: 2px solid red;
   }
+
+  footer {
+    grid-column: 2 / 3;
+}

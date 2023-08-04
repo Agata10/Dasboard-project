@@ -7,6 +7,7 @@
 * [Link to game](#link-to-game)
 * [Setup](#setup)
 * [Usage](#usage)
+* [Rights](#Icons)
 
 
 ## General information
@@ -34,3 +35,7 @@ or
 
 This project task is understanding grid layout. It has admin dashboard with links to my projects. 
 
+## Icons
+Icons were downloaded from flaticon.com, authors:
+1. Roundicons
+2. Freepik
