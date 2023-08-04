@@ -1,3 +1,51 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+svg {
+    width: 1.2rem;
+}
+
+.dashboard {
+    width: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.searchBox {
+    display: flex;
+    flex-direction: row;
+    max-width: 250px;
+    min-height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.searchBox input[type=text] {
+    border-radius: 20px;
+    padding: 6px;
+    border: none;
+    flex-grow: 2;
+  }
+
+  .searchBox input[type=text]:focus {
+    outline: none;
+  }
+
+  .card {
+    width: 250px;
+    height: 120px;
+    border: 2px solid black;
+  }
+
+  .trendingCard {
+    border: 2px solid blue;
+  }
+
+  .announcementsCards {
+    border: 2px solid red;
+  }
