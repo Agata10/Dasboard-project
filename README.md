@@ -18,11 +18,11 @@ Project is one of the task from [The Odin Project](https://www.theodinproject.co
 * HTML
 
 ## Screenshots
-![Wepage](/images/photo1.png)
+![Wepage](/images/screensshot.png)
 
 
 ## Link to webpage
-
+ https://agata10.github.io/Dasboard-project/
 
 ## Setup
 
@@ -35,7 +35,10 @@ or
 
 This project task is understanding grid layout. It has admin dashboard with links to my projects. 
 
+Dashboard is based mostly on grid although I used flex in some parts to align content and to place search button in search input.
+
 ## Icons
+
 Icons were downloaded from flaticon.com, authors:
 1. Roundicons
 2. Freepik
