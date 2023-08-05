@@ -201,7 +201,7 @@ li img {
   /** MAIN **/
   .main {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2.8fr 1.2fr;
     grid-template-rows: 1fr 1fr;
     padding: 40px 30px;
     background-color: aliceblue;
@@ -215,10 +215,9 @@ li img {
   
     display: grid;
     grid-template-columns: repeat(2, minmax(280px, 1fr));
-    grid-template-rows: max-content repeat(3, minmax(200px, 1.5fr));
+    grid-template-rows: max-content repeat(3, minmax(160px, 1fr));
     margin: 20px;
     gap: 20px;
-    justify-content: stretch;
   }
 
   .wrapper-cards h2 {
@@ -227,7 +226,7 @@ li img {
 
   .card {
     border: transparent;
-    box-shadow: 1px 2px 4px 1px grey;
+    box-shadow: 1px 1px 8px 0px grey;
     border-left: 8px solid var(--lightCyan);
     border-radius: 8px;
     padding: 10px 10px 30px 10px;
@@ -270,15 +269,42 @@ li img {
     padding-bottom: 10px;
   }
 
+  .wrapper-trending h2 {
+    padding-bottom: 20px;
+  }
+
+  .wrapper-announcments {
+    margin: 20px;
+  }
+
+  .wrapper-announcments h2 {
+    padding-bottom: 20px;
+  }
+
+  .announcementsCard {
+    padding: 20px 0px;
+  }
+
+  .announcementsCard p {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  .announcementsCard h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
   .trendingCard img {
     height: 3rem;
   }
 
   .trendingCards ,
   .announcementsCards {
-    box-shadow: 1px 2px 4px 1px grey;
+    box-shadow: 1px 1px 8px 0px grey;
     border-radius: 8px;
     background-color: rgb(247, 248, 248);
+    padding: 20px;
   }
 
 
